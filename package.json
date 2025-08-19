@@ -1,11 +1,11 @@
 {
   "name": "layout_miami-condo-kings",
-  "homepage": "https://frontend-showcase.github.io/layout_miami-condo-kings",
   "version": "1.0.0",
+  "homepage": "https://frontend-showcase.github.io/layout_miami-condo-kings",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html",
-    "predeploy": "rm -rf build && mkdir build && cp -r src/* build/",
+    "build": "rm -rf build && mkdir build && cp -r src/* build/",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "keywords": [],
