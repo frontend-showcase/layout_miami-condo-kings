@@ -5,7 +5,8 @@
 ---
 
 ## 🔗 Live Project / Repository
-[View the repository on GitHub](https://github.com/frontend-showcase/layout_miami-condo-kings)
+[View the repository on GitHub](https://github.com/frontend-showcase/layout_miami-condo-kings)  
+[View Live Project on GitHub Pages](https://frontend-showcase.github.io/layout_miami-condo-kings/)
 
 ---
 
@@ -14,9 +15,9 @@
 | Technology         | Purpose                                         |
 |--------------------|-------------------------------------------------|
 | HTML5              | Semantic, responsive layout                     |
-| SCSS (Sass)        | Styles organized via BEM and modular `blocks/`   |
-| Parcel             | Fast bundler, asset transformer & optimizer      |
-| JavaScript (ES6+)  | Basic interactivity (e.g., navigation, menu)     |
+| SCSS (Sass)        | Styles organized via BEM and modular `blocks/` |
+| Parcel             | Fast bundler, asset transformer & optimizer    |
+| JavaScript (ES6+)  | Basic interactivity (e.g., navigation, menu)   |
 | Git                | Version control and collaboration               |
 
 ---
@@ -28,17 +29,4 @@
 - **Optimized asset paths**: correct handling of images and fonts  
 - **Google Fonts**: "Roboto" with multiple weights  
 - **Basic interactivity**: simple JS dynamics (like menu toggle)  
-
----
-
-## ⚡ Getting Started
-
-```bash
-# 1. Install dependencies
-npm install
-
-# 2. Run local development server with live reload
-npm run dev
-
-# 3. Build project for production
-npm run build
+- **Automatic deployment** to GitHub Pages via `npm run deploy`  
